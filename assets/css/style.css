@@ -1628,3 +1628,15 @@ button#hello {
 .eighty{
 	height: 60%;
 }
+div.animation {
+  width: 256px;
+  height: 256px;
+  background-image: url("https://clipart.info/images/ccovers/1495916678star-png-red-small-alpha-transparent-image-clip-art.png");
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  from {background-image: url("https://clipart.info/images/ccovers/1495916678star-png-red-small-alpha-transparent-image-clip-art.png");}
+  to {background-image: url("https://icons.iconarchive.com/icons/paomedia/small-n-flat/256/cat-icon.png");}
+}
